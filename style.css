@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 2.5rem 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  color: slategray;
+}
+
+.container {
+  height: 200px;
+  width: 300px;
+  border: 2px solid slategray;
+  text-align: center;
+}
+pre {
+  text-align: center;
+}
+
+.bar {
+  cursor: pointer;
+  fill: darksalmon;
+}
+
+h2 {
+  color: slategray;
+}
