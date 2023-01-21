@@ -1,6 +1,8 @@
 :root {
+  --text:white;
   --primary: olivedrab;
   --secondary: slategray;
+  --background: #121215;
 }
 
 * {
@@ -11,13 +13,14 @@
 }
 
 body {
+  background-color: var(--background);
   font-family: sans-serif;
   margin: 2.5rem 10vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2.5rem;
-  color: var(--secondary);
+  color: var(--text);
 }
 
 .container {
@@ -36,5 +39,5 @@ pre {
 }
 
 h2 {
-  color: var(--secondary);
+  color: var(--text);
 }
