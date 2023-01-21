@@ -26,7 +26,7 @@ pre {
 }
 
 .bar {
-  cursor: pointer;
+  /* cursor: pointer; */
   fill: darksalmon;
 }
 
